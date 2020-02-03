@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 # railsapp
 # from_boring_to_rainbows
+# from-boring-to-rainbows
