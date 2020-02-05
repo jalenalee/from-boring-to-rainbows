@@ -1,3 +1,4 @@
+<div class = "post-body">
 <p id="notice"><%= notice %></p>
 
 <h1>Posts</h1>
@@ -6,10 +7,12 @@
       <h3><%= link_to post.title, post %><br> </h3>
       <h5><%= truncate(post.content) %><br> </h5>
      <h6> <%= post.date.strftime("published on %d of %B, %Y") %> <br> </h6>
-
+    <%# time_ago_in_words(post.date.to_time() %>
     <% end %>
 
 
 <br>
 
 <%= link_to 'New Post', new_post_path %>
+</div> 
+

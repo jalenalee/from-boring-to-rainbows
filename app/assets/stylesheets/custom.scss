@@ -1,16 +1,15 @@
-// @import "bootstrap-sprockets";
+@import "bootstrap-sprockets";
 @import "bootstrap";
-$pink:#f6f2f2;
+$pink: rgb(224, 178, 186);
 $dark-grey: #a9a9a9;
-body {
-    background-color: $pink;
-}
-
 
 /* universal */
 
+html,
 body {
     padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+    background: $pink;
 }
 
 section {
