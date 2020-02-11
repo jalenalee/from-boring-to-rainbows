@@ -16,5 +16,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get root_url
     assert_response :success
     assert_select ".date", "2020" 
+  end 
 
 end
